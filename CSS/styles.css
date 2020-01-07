@@ -1,0 +1,159 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-color: grey;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 5%;
+}
+
+p{
+  line-height: 2;
+}
+
+.sub-title {
+  color: #66BFBF;
+  font-weight: normal;
+  font-size: 2.5rem;
+}
+
+.top-container {
+  background-color: #719192;
+  position: relative;
+  padding: 50px 0 20px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.skill_1 {
+  float: left;
+  margin-right: 30px;
+}
+
+.skill_2 {
+  float: right;
+  margin-left: 30px;
+}
+
+.skill_3{
+  float: left;
+  margin-right: 30px;
+}
+
+.skill_1_source {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.skill_2_source {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 100px auto;
+  text-align: right;
+}
+
+.skill_3_source{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+
+.footer-link {
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover{
+  color: #EAF6F6;
+}
+
+.trademark {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.btn {
+  box-shadow: 0 0 0 2 #9fb4f2;
+  background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+  background-color: #7892c2;
+  border-radius: 10px;
+  border: 1px solid #4e6096;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
+  padding: 12px 37px;
+  text-decoration: none;
+  text-shadow: 0 1 0 #283966;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+  background-color: #476e9e;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
